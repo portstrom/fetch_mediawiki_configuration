@@ -1,0 +1,12 @@
+[package]
+authors = ["Fredrik Portström <https://portstrom.com>"]
+license-file = "LICENSE"
+name = "fetch_site_configuration"
+version = "0.1.0"
+
+[dependencies]
+hyper = "0.12"
+hyper-tls = "0.2"
+serde = "1"
+serde_derive = "1"
+serde_json = "1"
